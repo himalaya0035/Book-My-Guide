@@ -1,0 +1,40 @@
+#realSearchBox{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 18px;
+    border-bottom: 2px solid #f78383;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 45px;
+}
+
+#realSearchBox:focus{
+    outline:none;
+}
+
+.realSearchBoxContainer{
+    position: relative;
+}
+.searchResults{
+    padding: 15px;
+}
+.searchResult{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+    margin-bottom: 10px;
+}
+.searchResult img {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.searchResult p {
+    font-size: 14px;
+    color: #808080;
+}
+.searchResult > div{
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+.partnerDashboard__pageHeader {
+}
+
+.partnerDashboard {
+  margin-top: 80px;
+}
+
+.partnerDashboard__second {
+  padding: 20px;
+  padding-top: 15px;
+}
+
+.partnerDashboard__guideDashboard,
+.partnerDashboard__createPackage {
+  background-color: #f78383;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* padding: 20px; */
+  height: 150px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+}
+
+.partnerDashboard__guideDashboard > div,
+.partnerDashboard__createPackage > div {
+  padding: 40px 20px;
+}
+
+.partnerDashboard__guideDashboard > img,
+.partnerDashboard__createPackage > img {
+  /* height: 130px; */
+  width: 180px;
+  background-size: cover;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}

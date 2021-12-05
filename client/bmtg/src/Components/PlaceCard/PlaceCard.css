@@ -1,0 +1,15 @@
+.tourList {
+    border-radius: 15px;
+    padding: 10px;
+    width: 47%;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.tourList img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+}

@@ -1,0 +1,15 @@
+.appButton {
+    position: relative;
+    width: 100%;
+    padding: 28px 25px 28px 25px;
+    border-radius: 15px;
+    background-color: black;
+    border:none;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+}
+.appButton p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+}

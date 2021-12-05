@@ -1,0 +1,22 @@
+.guideView {
+  padding: 10px;
+}
+
+.guideView__first {
+  margin-top: 60px;
+  height: 28vh;
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 20px; */
+  margin-bottom: 16px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.guideView__second {
+  margin-top: 30px;
+  overflow-y: auto;
+  height: 57vh;
+}

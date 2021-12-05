@@ -1,0 +1,92 @@
+.partnerForm {
+  padding: 20px;
+}
+
+.partnerForm  input {
+  padding: 15px;
+  width: 100%;
+  margin-top: 7px;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #7c7a7a;
+}
+
+
+.partnerForm input:focus{
+  border: none;
+  outline: 2px solid #f78383;
+}
+
+.partnerForm label {
+  color: gray;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-left: 2px;
+}
+
+.partnerForm__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* General Details */
+
+.generalDetails,
+.identityVerify,
+.bankDetails {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.generalDetails > h1,
+.identityVerify > h1,
+.bankDetails > h1 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #f78383;
+}
+
+.generalDetails > form > p,
+.identityVerify > form > p,
+.bankDetails > form > p {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.btn__next {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  background-color: #f78383;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.btn__prev {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  margin: auto;
+  margin-right: 20px;
+  margin-top: 30px;
+  border: 1px solid #808080;
+}
+
+.btn__submit{
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+/* Identity Verification */

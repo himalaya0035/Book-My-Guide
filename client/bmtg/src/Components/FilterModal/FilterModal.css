@@ -1,0 +1,28 @@
+.filterModal__headingPrice > p {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filterModal__btnActive {
+    padding: 7px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #f78383;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #f78383;
+    font-size: 0.8rem;
+  }
+  
+  .filterModal__btnUnactive {
+    padding: 7px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000;
+    font-size: 0.8rem;
+  }
