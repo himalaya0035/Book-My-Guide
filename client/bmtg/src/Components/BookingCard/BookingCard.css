@@ -1,0 +1,132 @@
+.bookingCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  box-shadow: -1px 2px 26px -6px rgba(0, 0, 0, 0.75);
+
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.bookingModal__reviewBtn {
+  width: 45%;
+  margin: auto;
+  padding: 7px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f78383;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.bookingCard > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.bookingCard__details {
+  text-align: right;
+}
+
+.bookingCard__details > p {
+  color: #808080;
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.bookingCard__details > button {
+  font-size: 1, 1rem;
+  margin-top: 22px;
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: #f78383;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* modal */
+
+.bookingModal__guideDetails {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #f78383;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.bookingModal__guideDetails > img {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.bookingModal__guideDetails > h3 {
+  letter-spacing: 1.5px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.bookingModal__guideDetails > p {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.bookingModal__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bookingModal__details > h3 {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.bookingModal__details > p {
+  color: #808080;
+  font-weight: bold;
+}
+
+.bookingModal__booking {
+  padding: 10px;
+}
+
+.bookingModal__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bookingModal__closeBtn {
+  width: 45%;
+  margin: auto;
+  padding: 7px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.bookingModal__cancelBtn {
+  width: 45%;
+  margin: auto;
+  padding: 7px;
+  border-radius: 20px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

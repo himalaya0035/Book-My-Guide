@@ -1,0 +1,48 @@
+.editTour > form > input,
+.editTour textarea {
+  margin-bottom: 30px;
+}
+.editTour textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+
+.editTour input,
+.editTour textarea {
+  padding: 15px;
+  width: 100%;
+  margin-top: 7px;
+  border-radius: 10px;
+  border: 1px solid #f78383;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #7c7a7a;
+}
+.editTour input::placeholder,
+.editTour textarea::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+}
+.editTour input:active {
+  border: 1px solid #f78383;
+}
+
+.editTour label {
+  color: gray;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-left: 2px;
+}
+
+.editTour__closeBtn {
+  background-color: red;
+  width: 30px;
+  padding: 5px;
+  color: #000;
+  border-radius: 15px;
+  position: absolute;
+  top: -1.5%;
+  right: -2%;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4))
+}

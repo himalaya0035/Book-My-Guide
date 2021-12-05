@@ -1,0 +1,174 @@
+.guideDashboard {
+  margin-top: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.guideDashboard__details {
+  background-color: #fff;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+  padding: 20px;
+  margin: 10px 20px 20px 20px;
+  border-radius: 20px;
+}
+
+.guideDashboard__guide {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.guideDashboard__guidePhoto {
+  height: 100px;
+  width: 120px;
+  border-radius: 20px;
+}
+
+.guideDashboard__guideName {
+  /* width: 150px; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.guideDashboard__about {
+  text-align: right;
+}
+
+.guideDashboard__work {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.guideDashboard__money > p:last-child {
+  margin-top: 5px;
+}
+
+.guideDashboard__rating {
+  display: flex;
+  align-items: center;
+}
+
+.guideDashboard__rating > p {
+  display: flex;
+  align-items: center;
+}
+
+.guideDashboard__tour {
+  padding: 20px;
+  background-color: #fff;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+  margin: 10px 10px 20px 10px;
+  border-radius: 20px;
+}
+
+.guideDashboard__tourHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.guideDashboard__tourAbout > p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.guideDashboard__bookings {
+  margin-top: 40px;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+}
+
+.guideDashboard__bookingsDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.guideDashboard__noBookings {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.guideDashboard__slots {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 1rem;
+  margin-top: 30px;
+}
+
+.guideDashboard__slot {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  width: 95%;
+  margin: auto;
+  /* background-color: rgba(183, 255, 168, 0.5); */
+  background-color: #f78383;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.guideDashboard__bookingsDateTime {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+}
+
+::-webkit-calendar-picker-indicator {
+  margin-left: -10px;
+}
+
+/* testing */
+.star {
+  height: 50px;
+  width: 65px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+
+  text-align: center;
+  background: #f78383;
+  color: white;
+  font-size: 12px;
+  margin-top: 12px;
+  font-weight: bold;
+  padding-right: 0px;
+  padding-top: 4px;
+}
+
+.star::before {
+  display: inline-block;
+  height: 100%;
+  background: blue;
+  vertical-align: middle;
+  content: "";
+}
+
+#tourDescDash {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #808080;
+  font-size: 16px;
+}

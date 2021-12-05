@@ -1,0 +1,19 @@
+.aboutPlace{
+    /* background-image: url('https://sample-videos.com/img/Sample-jpg-image-50kb.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    height: 160px;
+    overflow: auto;
+    padding-right: 10px;
+}
+.fadeWrapper{
+    background-image: linear-gradient(transparent 0%, #7e7e7e 0%, #7e7e7e 65%, transparent 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-attachment: fixed;
+}
+.fadeWrapper p {
+    font-size: 18px;
+    color: transparent;
+}

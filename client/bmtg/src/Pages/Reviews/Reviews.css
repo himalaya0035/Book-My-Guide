@@ -1,0 +1,11 @@
+.reviews {
+  padding: 10px;
+}
+
+.reviews__heading {
+  font-size: 1.1rem;
+}
+
+.reviews__cards {
+  margin-top: 65px;
+}

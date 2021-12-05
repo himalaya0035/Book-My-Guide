@@ -1,0 +1,45 @@
+.reviewCard {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 10px;
+  border-radius: 20px;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+}
+
+.reviewCard__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+
+.reviewCard__person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewCard__personImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.reviewCard__rating > p {
+  display: flex;
+  align-items: center;
+}
+
+.reviewCard__timestamp {
+  margin-top: 7px;
+  font-size: 0.9rem;
+  color: #808080;
+}
+
+.reviewCard__review {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

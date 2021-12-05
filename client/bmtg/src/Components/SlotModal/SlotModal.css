@@ -1,0 +1,101 @@
+.slotModal__main {
+  text-align: center;
+}
+
+.slotModal__details {
+  background-color: #f78383;
+  padding: 20px;
+  color: #fff;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.slotModal__details > h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.slotModal__details > h3 > span:last-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.slotModal__details > p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.slotModal__list {
+  height: 500px;
+  overflow-y: auto;
+  /* padding: -10px; */
+}
+
+.slotModal__closeBtn {
+  background-color: #fff;
+  width: 30px;
+  padding: 5px;
+  color: #000;
+  border-radius: 15px;
+  position: absolute;
+  top: -1.5%;
+  right: -2%;
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+}
+
+/* slotModal person */
+
+.slotModal__person {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 15px 12px 10px auto;
+  border-radius: 15px;
+  /* background-color: #f78383; */
+}
+
+.slotModal__personImg {
+  flex: 0.3;
+}
+
+.slotModal__personDetails {
+  text-align: left;
+  margin-top: 5px;
+  margin-right: 0px;
+}
+
+.slotModal__personImg > img {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 0px;
+  margin-left: -10px;
+}
+
+.slotModal__personContact > p,
+.slotModal__personDetails > p {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #808080;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+
+.slotModal__personDetails__name {
+  width: 180px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slotModal__personDetails > p:not(:first-child) {
+  display: flex;
+  justify-content: space-between;
+}

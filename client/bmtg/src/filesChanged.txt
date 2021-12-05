@@ -1,0 +1,17 @@
+1) homepage.js
+2) new file sorryIcon.svg added
+3) SearchScreen.js changed
+4) landing page.js changed
+5) app header.js changed
+6) bookingGuidePage.js
+7) pageheader.js changed
+8) bookingGuidePage.css
+9) getCity.js
+10) app.js changed
+11) app.css changed
+12) favouritesPage.js created inside favourites folder
+13) new gif added
+14) bookingSuccesfull page.js changes
+15) layout.js changed
+16) bankdetails.js 
+17) partnerform.js

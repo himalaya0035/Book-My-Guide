@@ -1,0 +1,13 @@
+.aboutPlace2{
+    overflow: auto;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.aboutPlace2 p {
+    font-size: 18px;
+    color: #7e7e7e;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+   -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

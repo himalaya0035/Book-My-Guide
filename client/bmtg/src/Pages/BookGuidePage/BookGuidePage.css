@@ -1,0 +1,101 @@
+.bookGuidePageWrapper{
+    padding: 10px;
+}
+
+.guideTopCard{
+    height: 32vh;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 20px; */
+    margin-bottom: 16px;
+    padding-top: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.featuredReview{
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 20px;
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.bookingMultiStepForm{
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 20px;
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    height: 57vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.formOne,.tourDetails,.confirmBooking{
+    padding: 20px 10px 10px 10px;
+    height: 47vh;
+    overflow: hidden;
+}
+.formOne input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 12px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formOne input:focus{
+    outline: none;
+}
+.listOfSlots{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap:1rem;
+}
+.slot{
+    padding: 10px;
+    width: 85px;
+    border-radius: 15px;
+    border: 1px solid #f54242;
+    height: 40px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+}
+.slot.active{
+    background-color: #f78383;
+    color: white;
+}
+.changeFormBtn{
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    margin-right: 10px;
+    border: none;
+}
+.changeFormBtn:last-of-type{
+    margin-right: 0px;
+}
+.toggleBtns {
+    margin-top: 20px;
+}
+.prev{
+    background-color: white;
+    color: black;
+    border: 1px solid #808080;
+}
+.next{
+    background-color: #f78383;
+    color: white;
+}
+#noOfPeople:focus{
+    outline: none;
+    border: 2px solid #f78383;
+}

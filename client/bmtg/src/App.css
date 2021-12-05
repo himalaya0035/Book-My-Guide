@@ -1,0 +1,20 @@
+.MobileDisplay{
+   display: none; 
+}
+.desktopDisplay{
+    display: block;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width:491px) {
+    .MobileDisplay{
+        display: block;
+    }
+    .desktopDisplay{
+        display: none;
+    }
+}

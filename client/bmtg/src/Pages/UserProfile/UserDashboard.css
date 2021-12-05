@@ -1,0 +1,71 @@
+.userDashboard {
+}
+
+.userDashboard__main {
+  margin-top: 70px;
+  padding: 10px;
+}
+
+.userDashboard__first {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: -1px 2px 26px -6px rgba(0, 0, 0, 0.75);
+}
+
+.userDashboard__first > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.userDashboard__userDetails > button{
+  font-size: 1, 1rem;
+  margin-top: 22px;
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: #f78383;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.userDashboard__userDetails {
+  text-align: right;
+}
+
+.userDashboard__userDetails > p {
+  color: #808080;
+  margin-top: 2px;
+}
+
+/* second */
+
+.userDashboard__second {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.userDashboard__tabButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userDashboard__tabButtons > button {
+  margin-right: 10px;
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.userDashboard__unactiveTab {
+  color: #808080;
+}
+
+.userDashboard__activeTab {
+  color: #f78383;
+}
